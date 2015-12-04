@@ -10,11 +10,16 @@
 		50ABA23DADB7F1CCE84467B1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5011016A450D2A6A60E79F20 /* libPods.a */; };
 		D2ECCC5F1C118C6600232523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC5E1C118C6600232523 /* main.m */; };
 		D2ECCC621C118C6600232523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC611C118C6600232523 /* AppDelegate.m */; };
-		D2ECCC651C118C6600232523 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC641C118C6600232523 /* ViewController.m */; };
-		D2ECCC681C118C6600232523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC661C118C6600232523 /* Main.storyboard */; };
 		D2ECCC6A1C118C6600232523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC691C118C6600232523 /* Assets.xcassets */; };
-		D2ECCC6D1C118C6600232523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC6B1C118C6600232523 /* LaunchScreen.storyboard */; };
 		D2ECCC781C118C6600232523 /* BlurImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC771C118C6600232523 /* BlurImageTests.m */; };
+		D2ECCC8C1C118E4E00232523 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC841C118E4E00232523 /* UIButton+Extension.m */; };
+		D2ECCC8D1C118E4E00232523 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC861C118E4E00232523 /* UIImage+Extension.m */; };
+		D2ECCC8E1C118E4E00232523 /* bgView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC881C118E4E00232523 /* bgView@2x.png */; };
+		D2ECCC8F1C118E4E00232523 /* blur_bgView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC891C118E4E00232523 /* blur_bgView@2x.png */; };
+		D2ECCC901C118E4E00232523 /* Blur_bj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC8A1C118E4E00232523 /* Blur_bj@2x.png */; };
+		D2ECCC911C118E4E00232523 /* Blur_bj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC8B1C118E4E00232523 /* Blur_bj@3x.png */; };
+		D2ECCC951C118E7E00232523 /* BlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC941C118E7E00232523 /* BlurViewController.m */; };
+		D2ECCC981C118F1F00232523 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC971C118F1F00232523 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,15 +39,23 @@
 		D2ECCC5E1C118C6600232523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2ECCC601C118C6600232523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2ECCC611C118C6600232523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D2ECCC631C118C6600232523 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D2ECCC641C118C6600232523 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D2ECCC671C118C6600232523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2ECCC691C118C6600232523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2ECCC6C1C118C6600232523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2ECCC6E1C118C6600232523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2ECCC731C118C6600232523 /* BlurImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2ECCC771C118C6600232523 /* BlurImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurImageTests.m; sourceTree = "<group>"; };
 		D2ECCC791C118C6600232523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2ECCC831C118E4E00232523 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		D2ECCC841C118E4E00232523 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		D2ECCC851C118E4E00232523 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		D2ECCC861C118E4E00232523 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		D2ECCC881C118E4E00232523 /* bgView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgView@2x.png"; sourceTree = "<group>"; };
+		D2ECCC891C118E4E00232523 /* blur_bgView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blur_bgView@2x.png"; sourceTree = "<group>"; };
+		D2ECCC8A1C118E4E00232523 /* Blur_bj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur_bj@2x.png"; sourceTree = "<group>"; };
+		D2ECCC8B1C118E4E00232523 /* Blur_bj@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blur_bj@3x.png"; sourceTree = "<group>"; };
+		D2ECCC931C118E7E00232523 /* BlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurViewController.h; sourceTree = "<group>"; };
+		D2ECCC941C118E7E00232523 /* BlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurViewController.m; sourceTree = "<group>"; };
+		D2ECCC961C118F1F00232523 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2ECCC971C118F1F00232523 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F3B39E4FF7AA665EBDA83EFE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,13 +110,12 @@
 		D2ECCC5C1C118C6600232523 /* BlurImage */ = {
 			isa = PBXGroup;
 			children = (
+				D2ECCC921C118E7E00232523 /* ViewController */,
+				D2ECCC821C118E4E00232523 /* Extension */,
+				D2ECCC871C118E4E00232523 /* Image */,
 				D2ECCC601C118C6600232523 /* AppDelegate.h */,
 				D2ECCC611C118C6600232523 /* AppDelegate.m */,
-				D2ECCC631C118C6600232523 /* ViewController.h */,
-				D2ECCC641C118C6600232523 /* ViewController.m */,
-				D2ECCC661C118C6600232523 /* Main.storyboard */,
 				D2ECCC691C118C6600232523 /* Assets.xcassets */,
-				D2ECCC6B1C118C6600232523 /* LaunchScreen.storyboard */,
 				D2ECCC6E1C118C6600232523 /* Info.plist */,
 				D2ECCC5D1C118C6600232523 /* Supporting Files */,
 			);
@@ -125,6 +137,39 @@
 				D2ECCC791C118C6600232523 /* Info.plist */,
 			);
 			path = BlurImageTests;
+			sourceTree = "<group>";
+		};
+		D2ECCC821C118E4E00232523 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D2ECCC831C118E4E00232523 /* UIButton+Extension.h */,
+				D2ECCC841C118E4E00232523 /* UIButton+Extension.m */,
+				D2ECCC851C118E4E00232523 /* UIImage+Extension.h */,
+				D2ECCC861C118E4E00232523 /* UIImage+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D2ECCC871C118E4E00232523 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D2ECCC881C118E4E00232523 /* bgView@2x.png */,
+				D2ECCC891C118E4E00232523 /* blur_bgView@2x.png */,
+				D2ECCC8A1C118E4E00232523 /* Blur_bj@2x.png */,
+				D2ECCC8B1C118E4E00232523 /* Blur_bj@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D2ECCC921C118E7E00232523 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D2ECCC961C118F1F00232523 /* ViewController.h */,
+				D2ECCC971C118F1F00232523 /* ViewController.m */,
+				D2ECCC931C118E7E00232523 /* BlurViewController.h */,
+				D2ECCC941C118E7E00232523 /* BlurViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		DE5D29000A9AA467F5E0AD06 /* Frameworks */ = {
@@ -217,9 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2ECCC6D1C118C6600232523 /* LaunchScreen.storyboard in Resources */,
+				D2ECCC901C118E4E00232523 /* Blur_bj@2x.png in Resources */,
+				D2ECCC8F1C118E4E00232523 /* blur_bgView@2x.png in Resources */,
 				D2ECCC6A1C118C6600232523 /* Assets.xcassets in Resources */,
-				D2ECCC681C118C6600232523 /* Main.storyboard in Resources */,
+				D2ECCC8E1C118E4E00232523 /* bgView@2x.png in Resources */,
+				D2ECCC911C118E4E00232523 /* Blur_bj@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2ECCC651C118C6600232523 /* ViewController.m in Sources */,
+				D2ECCC981C118F1F00232523 /* ViewController.m in Sources */,
+				D2ECCC8D1C118E4E00232523 /* UIImage+Extension.m in Sources */,
+				D2ECCC951C118E7E00232523 /* BlurViewController.m in Sources */,
+				D2ECCC8C1C118E4E00232523 /* UIButton+Extension.m in Sources */,
 				D2ECCC621C118C6600232523 /* AppDelegate.m in Sources */,
 				D2ECCC5F1C118C6600232523 /* main.m in Sources */,
 			);
@@ -293,25 +343,6 @@
 			targetProxy = D2ECCC741C118C6600232523 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D2ECCC661C118C6600232523 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2ECCC671C118C6600232523 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D2ECCC6B1C118C6600232523 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2ECCC6C1C118C6600232523 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D2ECCC7A1C118C6600232523 /* Debug */ = {
