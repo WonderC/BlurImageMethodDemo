@@ -14,6 +14,7 @@
 
 + (UIImage *)blurryImage:(UIImage *)image withBlurLevel:(CGFloat)blur {
 #if 0
+    //图片没有铺满 真心不知道怎么回事
     if (image == nil) {
         return nil;
     }
