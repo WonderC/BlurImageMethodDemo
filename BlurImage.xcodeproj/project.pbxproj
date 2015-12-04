@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50ABA23DADB7F1CCE84467B1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5011016A450D2A6A60E79F20 /* libPods.a */; };
+		D2ECCC5F1C118C6600232523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC5E1C118C6600232523 /* main.m */; };
+		D2ECCC621C118C6600232523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC611C118C6600232523 /* AppDelegate.m */; };
+		D2ECCC651C118C6600232523 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC641C118C6600232523 /* ViewController.m */; };
+		D2ECCC681C118C6600232523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC661C118C6600232523 /* Main.storyboard */; };
+		D2ECCC6A1C118C6600232523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC691C118C6600232523 /* Assets.xcassets */; };
+		D2ECCC6D1C118C6600232523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ECCC6B1C118C6600232523 /* LaunchScreen.storyboard */; };
+		D2ECCC781C118C6600232523 /* BlurImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECCC771C118C6600232523 /* BlurImageTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2ECCC741C118C6600232523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2ECCC521C118C6600232523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2ECCC591C118C6600232523;
+			remoteInfo = BlurImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5011016A450D2A6A60E79F20 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59582C3A648144F5BD76693 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D2ECCC5A1C118C6600232523 /* BlurImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2ECCC5E1C118C6600232523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2ECCC601C118C6600232523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2ECCC611C118C6600232523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2ECCC631C118C6600232523 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2ECCC641C118C6600232523 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2ECCC671C118C6600232523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2ECCC691C118C6600232523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2ECCC6C1C118C6600232523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2ECCC6E1C118C6600232523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2ECCC731C118C6600232523 /* BlurImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2ECCC771C118C6600232523 /* BlurImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurImageTests.m; sourceTree = "<group>"; };
+		D2ECCC791C118C6600232523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B39E4FF7AA665EBDA83EFE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2ECCC571C118C6600232523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50ABA23DADB7F1CCE84467B1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ECCC701C118C6600232523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D7AF643FFF98D668F5E58F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3B39E4FF7AA665EBDA83EFE /* Pods.debug.xcconfig */,
+				A59582C3A648144F5BD76693 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2ECCC511C118C6600232523 = {
+			isa = PBXGroup;
+			children = (
+				D2ECCC5C1C118C6600232523 /* BlurImage */,
+				D2ECCC761C118C6600232523 /* BlurImageTests */,
+				D2ECCC5B1C118C6600232523 /* Products */,
+				2D7AF643FFF98D668F5E58F1 /* Pods */,
+				DE5D29000A9AA467F5E0AD06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2ECCC5B1C118C6600232523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2ECCC5A1C118C6600232523 /* BlurImage.app */,
+				D2ECCC731C118C6600232523 /* BlurImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2ECCC5C1C118C6600232523 /* BlurImage */ = {
+			isa = PBXGroup;
+			children = (
+				D2ECCC601C118C6600232523 /* AppDelegate.h */,
+				D2ECCC611C118C6600232523 /* AppDelegate.m */,
+				D2ECCC631C118C6600232523 /* ViewController.h */,
+				D2ECCC641C118C6600232523 /* ViewController.m */,
+				D2ECCC661C118C6600232523 /* Main.storyboard */,
+				D2ECCC691C118C6600232523 /* Assets.xcassets */,
+				D2ECCC6B1C118C6600232523 /* LaunchScreen.storyboard */,
+				D2ECCC6E1C118C6600232523 /* Info.plist */,
+				D2ECCC5D1C118C6600232523 /* Supporting Files */,
+			);
+			path = BlurImage;
+			sourceTree = "<group>";
+		};
+		D2ECCC5D1C118C6600232523 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2ECCC5E1C118C6600232523 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2ECCC761C118C6600232523 /* BlurImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2ECCC771C118C6600232523 /* BlurImageTests.m */,
+				D2ECCC791C118C6600232523 /* Info.plist */,
+			);
+			path = BlurImageTests;
+			sourceTree = "<group>";
+		};
+		DE5D29000A9AA467F5E0AD06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5011016A450D2A6A60E79F20 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2ECCC591C118C6600232523 /* BlurImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2ECCC7C1C118C6600232523 /* Build configuration list for PBXNativeTarget "BlurImage" */;
+			buildPhases = (
+				26385A4B61505D99B7EBC437 /* Check Pods Manifest.lock */,
+				D2ECCC561C118C6600232523 /* Sources */,
+				D2ECCC571C118C6600232523 /* Frameworks */,
+				D2ECCC581C118C6600232523 /* Resources */,
+				6FDCFB68F627B8FCD15A2A9A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurImage;
+			productName = BlurImage;
+			productReference = D2ECCC5A1C118C6600232523 /* BlurImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2ECCC721C118C6600232523 /* BlurImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2ECCC7F1C118C6600232523 /* Build configuration list for PBXNativeTarget "BlurImageTests" */;
+			buildPhases = (
+				D2ECCC6F1C118C6600232523 /* Sources */,
+				D2ECCC701C118C6600232523 /* Frameworks */,
+				D2ECCC711C118C6600232523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2ECCC751C118C6600232523 /* PBXTargetDependency */,
+			);
+			name = BlurImageTests;
+			productName = BlurImageTests;
+			productReference = D2ECCC731C118C6600232523 /* BlurImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2ECCC521C118C6600232523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "美房圈";
+				TargetAttributes = {
+					D2ECCC591C118C6600232523 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D2ECCC721C118C6600232523 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D2ECCC591C118C6600232523;
+					};
+				};
+			};
+			buildConfigurationList = D2ECCC551C118C6600232523 /* Build configuration list for PBXProject "BlurImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2ECCC511C118C6600232523;
+			productRefGroup = D2ECCC5B1C118C6600232523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2ECCC591C118C6600232523 /* BlurImage */,
+				D2ECCC721C118C6600232523 /* BlurImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2ECCC581C118C6600232523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ECCC6D1C118C6600232523 /* LaunchScreen.storyboard in Resources */,
+				D2ECCC6A1C118C6600232523 /* Assets.xcassets in Resources */,
+				D2ECCC681C118C6600232523 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ECCC711C118C6600232523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26385A4B61505D99B7EBC437 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FDCFB68F627B8FCD15A2A9A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2ECCC561C118C6600232523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ECCC651C118C6600232523 /* ViewController.m in Sources */,
+				D2ECCC621C118C6600232523 /* AppDelegate.m in Sources */,
+				D2ECCC5F1C118C6600232523 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ECCC6F1C118C6600232523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ECCC781C118C6600232523 /* BlurImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2ECCC751C118C6600232523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2ECCC591C118C6600232523 /* BlurImage */;
+			targetProxy = D2ECCC741C118C6600232523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2ECCC661C118C6600232523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2ECCC671C118C6600232523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2ECCC6B1C118C6600232523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2ECCC6C1C118C6600232523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2ECCC7A1C118C6600232523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2ECCC7B1C118C6600232523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2ECCC7D1C118C6600232523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B39E4FF7AA665EBDA83EFE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfq.BlurImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2ECCC7E1C118C6600232523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59582C3A648144F5BD76693 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfq.BlurImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2ECCC801C118C6600232523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfq.BlurImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurImage.app/BlurImage";
+			};
+			name = Debug;
+		};
+		D2ECCC811C118C6600232523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfq.BlurImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurImage.app/BlurImage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2ECCC551C118C6600232523 /* Build configuration list for PBXProject "BlurImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ECCC7A1C118C6600232523 /* Debug */,
+				D2ECCC7B1C118C6600232523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2ECCC7C1C118C6600232523 /* Build configuration list for PBXNativeTarget "BlurImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ECCC7D1C118C6600232523 /* Debug */,
+				D2ECCC7E1C118C6600232523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2ECCC7F1C118C6600232523 /* Build configuration list for PBXNativeTarget "BlurImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ECCC801C118C6600232523 /* Debug */,
+				D2ECCC811C118C6600232523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2ECCC521C118C6600232523 /* Project object */;
+}
